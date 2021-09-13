@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Student" Class="DataClassesStudentsDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-TMI53VD;Initial Catalog=Student;Integrated Security=True" SettingsObjectName="LINQDemo.Properties.Settings" SettingsPropertyName="StudentConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Students" Member="Students">
+    <Type Name="Student">
+      <Column Name="StudentID" Type="System.String" DbType="VarChar(50)" IsPrimaryKey="true" CanBeNull="true" />
+      <Column Name="StudentName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="StdName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Location" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
