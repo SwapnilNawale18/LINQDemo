@@ -36,10 +36,10 @@ namespace LINQDemo
             string conn = "Data Source = DESKTOP-TMI53VD; Initial Catalog=Student; Integrated Security=true; User ID=sa; Password=pass@123";
             DataClassesStudentsDataContext stud = new DataClassesStudentsDataContext(conn);
             Student s1 = new Student();
-            s1.StudentID = "1003";
-            s1.StudentName = "ZXCH";
-            s1.StdName = "VII";
-            s1.Location = "Nerul, Navi Mumbai";
+            s1.StudentID = "1001";
+            s1.StudentName = "ZXCG";
+            s1.StdName = "V";
+            s1.Location = "Vashi, Navi Mumbai";
             stud.Students.InsertOnSubmit(s1);
             stud.SubmitChanges();
             Console.WriteLine("Record Inserted");
